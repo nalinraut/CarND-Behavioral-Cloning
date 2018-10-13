@@ -1,6 +1,16 @@
+
+[//]: # (Image References)
+
+[image1]: ./assets/output.gif
+[image2]: ./assets/center.jpg
+[image3]: ./assets/left.jpg
+[image4]: ./assets/right.jpg
+[image5]: ./assets/center_flip.jpg
+
 ---
 
 **Behavioral Cloning Project**
+![alt text][image1]
 
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
@@ -10,18 +20,10 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-[//]: # (Image References)
-
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
 
 ---
-### Files Submitted & Code Quality
+
+
 
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
@@ -94,7 +96,7 @@ ___________________________________________________________________
 ```
 #### 1. An appropriate model architecture has been employed
 
-My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 
+My model consists of a convolution neural network with 3x3 filter sizes and depths between 24 and 64 
 
 The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer.
 
