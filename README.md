@@ -139,14 +139,14 @@ FLIPPED
 
 The training parameters used are shown below:
 
-'''
+```
 	
 SAMPLES_PER_EPOCH = 30000
 EPOCHS = 8
 VALID_SAMPLES = 6400 #Validation samples
 LEARNING_RATE = 1e-4
 	
-'''
+```
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
