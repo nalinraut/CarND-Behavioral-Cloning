@@ -93,23 +93,23 @@ Trainable params: 5,171,319
 Non-trainable params: 0
 ___________________________________________________________________
 ```
-#### 1. An appropriate model architecture has been employed
+####  An appropriate model architecture has been employed
 
 My model consists of a convolution neural network with 3x3 filter sizes and depths between 24 and 64 
 
 The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer.
 
-#### 2. Attempts to reduce overfitting in the model
+####  Attempts to reduce overfitting in the model
 
 The model contains dropout layers in order to reduce overfitting. 
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting. The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track. Also the number of epochs were limited to 8 or less since the model overfitted for epochs more than 8.
 
-#### 3. Model parameter tuning
+####  Model parameter tuning
 
 The model used an adam optimizer, so the learning rate was not tuned manually. A learning rate of 1e-4 is preferred for Adam optimizer.
 
-#### 4. Training data set.
+####  Training data set.
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road. To capture good driving behavior, I first recorded one lap on track one using center lane driving. 
 
@@ -141,9 +141,14 @@ The training parameters used are shown below:
 
 '''
 	
+SAMPLES_PER_EPOCH = 30000
+EPOCHS = 8
+VALID_SAMPLES = 6400 #Validation samples
+LEARNING_RATE = 1e-4
+	
 '''
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 8. I used an adam optimizer so that manually training the learning rate wasn't necessary. The ideal learning rate for Adam Optimizer is 0.0001
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 8. I used an adam optimizer so that manually training the learning rate wasn't necessary. The ideal learning rate for Adam Optimizer is 1e-4.
