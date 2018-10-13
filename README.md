@@ -130,9 +130,11 @@ RIGHT
 To augment the data set, I also flipped images and angles thinking that this would generalize the model. For example, here is an image that has then been flipped:
 
 CENTER
+<br />
 ![alt text][image2]
 
 FLIPPED
+<br />
 ![alt text][image4]
 
 The training parameters used are shown below:
