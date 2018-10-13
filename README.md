@@ -115,13 +115,13 @@ Training data was chosen to keep the vehicle driving on the road. I used a combi
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center. The images below show the left, center and right camera images.
 
-![alt text][image1]
 ![alt text][image2]
 ![alt text][image3]
+![alt text][image4]
 
 To augment the data set, I also flipped images and angles thinking that this would generalize the model. For example, here is an image that has then been flipped:
 
-![alt text][image1]
+![alt text][image2]
 ![alt text][image4]
 
 The training parameters used are shown below:
