@@ -28,12 +28,12 @@ The goals / steps of this project are the following:
 
 My project includes the following files:
 
-* datamod.py containing the folder that augments collected data
-* train.py containing the script to train the modified data
-* model.py containing the script to create and train the model
-* drive.py for driving the car in autonomous mode
-* model.h5 containing a trained convolution neural network 
-* video.py containing the script that generates a video of the car driving autoomously
+* `datamod.py` containing the folder that augments collected data
+* `train.py` containing the script to train the modified data
+* `model.py` containing the script to create and train the model
+* `drive.py` for driving the car in autonomous mode
+* `model.h5` containing a trained convolution neural network 
+* `video.py` containing the script that generates a video of the car driving autoomously
 
 
 
@@ -115,14 +115,14 @@ Training data was chosen to keep the vehicle driving on the road. I used a combi
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center. The images below show the left, center and right camera images.
 
+![alt text][image1]
+![alt text][image2]
 ![alt text][image3]
-![alt text][image4]
-![alt text][image5]
 
 To augment the data set, I also flipped images and angles thinking that this would generalize the model. For example, here is an image that has then been flipped:
 
-![alt text][image6]
-![alt text][image7]
+![alt text][image1]
+![alt text][image4]
 
 The training parameters used are shown below:
 
