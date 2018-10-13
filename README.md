@@ -140,7 +140,6 @@ FLIPPED
 The training parameters used are shown below:
 
 ```
-	
 SAMPLES_PER_EPOCH = 30000
 EPOCHS = 8
 VALID_SAMPLES = 6400 #Validation samples
